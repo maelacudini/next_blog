@@ -24,18 +24,16 @@ const Travels = () => {
         </p>
       </article>
 
-      <div className={`input-group mb-5`}>
-        <span className="input-group-text" id="basic-addon1">
-          Search for a post
-        </span>
-        <input
-          className="form-control"
-          type="text"
-          placeholder="Roma"
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-        />
-      </div>
+      <div className={`${style.inputGroup} input-group mb-3`}>
+        <span className={`input-group-text ${style.inputGroupText}`} id="basic-addon1">Search For a Post</span>
+          <input
+            className={`form-control ${style.formControl}`}
+            type="text"
+            placeholder="Roma"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />     
+        </div>
 
       <div className={style.travelPostsCard}>
         {filteredPosts.map((post) => (

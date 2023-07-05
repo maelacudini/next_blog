@@ -20,12 +20,11 @@
 /*hero*/
 .hero {
     margin-top: 100px;
-    margin-bottom: 100px;    
 }
 
 /*posts*/
 .posts {
-    margin-top: 100px;
+    margin-top: 70px;
     margin-bottom: 100px;
 }
 
@@ -86,7 +85,7 @@
 
 .travelsIntro {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .travelPostsCard {
@@ -167,5 +166,32 @@
     background-color: rgba(255, 255, 255, .1);
     -webkit-backdrop-filter: blur(1em);
     backdrop-filter: blur(2em);
+    border: none !important;
+    color: white !important;
     padding: 20px;
+}
+
+/*search bar*/
+.inputGroupText {
+    border-radius: 5px 0 0 5px !important;
+    background-color: rgba(255, 255, 255, .1) !important;
+    -webkit-backdrop-filter: blur(1em) !important;
+    backdrop-filter: blur(2em) !important;
+    border: none !important;
+    color: white !important;
+    padding: 10px !important;
+}
+
+.formControl {
+    border-radius: 0 5px 5px 0 !important;
+    background-color: rgba(255, 255, 255, .1) !important;
+    -webkit-backdrop-filter: blur(2em) !important;
+    backdrop-filter: blur(2em) !important;
+    border: none !important;
+    color: white !important;
+    padding: 10px !important;
+}
+
+.formControl::placeholder {
+    color: white !important;
 }

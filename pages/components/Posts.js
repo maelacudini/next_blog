@@ -27,18 +27,17 @@ const Posts = () => {
 
     return (
         <Fragment>
-            
-            <div className="input-group mb-3">
-                <span className="input-group-text" id="basic-addon1">Search for a post</span>
+            <div className={`${style.inputGroup} input-group mb-3`}>
+                <span className={`input-group-text ${style.inputGroupText}`} id="basic-addon1">Search For a Post</span>
                 <input
-                    className="form-control"
+                    className={`form-control ${style.formControl}`}
                     type="text"
-                    placeholder="Search here"
+                    placeholder="Roma"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                 />     
-            </div>   
-            
+            </div>
+     
             <div className={style.postContainer}>
                 {filteredPosts.map((post) => (
                     <article className={style.postCard} key={post.id}>
