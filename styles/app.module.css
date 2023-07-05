@@ -1,0 +1,171 @@
+.container {
+    padding: 5%;
+    color: white;
+    background-image: url('../assets/bg7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*link*/
+.link {
+    transition: 0.3s;
+}
+
+.link:hover{
+    transition: 0.3s;
+    color: #198754 !important;
+}
+
+/*hero*/
+.hero {
+    margin-top: 100px;
+    margin-bottom: 100px;    
+}
+
+/*posts*/
+.posts {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.postContainer {
+    display: flex;
+    overflow-y: scroll;
+}
+  
+.postCard {
+    max-width: 550px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .1);
+    -webkit-backdrop-filter: blur(1em);
+    backdrop-filter: blur(2em);
+    padding: 20px;
+    margin-right: 20px; /* Use margin-right instead of margin-left for spacing between posts */
+}
+
+.postImage {
+    border-radius: 5px;
+    width: 500px;
+}
+
+.postForm {
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .1);
+    -webkit-backdrop-filter: blur(1em);
+    backdrop-filter: blur(2em);
+    padding: 20px;
+}
+
+.postForm>form>input {
+    background-color: rgba(255, 255, 255, .1);
+    -webkit-backdrop-filter: blur(2em);
+    backdrop-filter: blur(2em);
+    border: none;
+}
+
+.postForm>form>input:focus {
+    background-color: rgba(255, 255, 255, 0.247);
+    -webkit-backdrop-filter: blur(2em);
+    backdrop-filter: blur(2em);
+    border: none;
+}
+
+@media screen and (max-width: 602px) {
+    .postImage {
+        width: 260px;
+    }
+}
+
+/*travels*/
+.travels {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.travelsIntro {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.travelPostsCard {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .1);
+    -webkit-backdrop-filter: blur(1em);
+    backdrop-filter: blur(2em);
+    padding: 20px;
+}
+
+  
+/*footer*/
+.bi {
+    font-size: 25px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.bi:hover {
+    transition: 0.3s;
+    color: #198754;
+}
+
+/*login*/
+.login {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .1);
+    -webkit-backdrop-filter: blur(1em);
+    backdrop-filter: blur(2em);
+    padding: 20px;
+}
+
+.login>form>input {
+    background-color: rgba(255, 255, 255, .1);
+    -webkit-backdrop-filter: blur(2em);
+    backdrop-filter: blur(2em);
+    border: none;
+}
+
+.login>form>input:focus {
+    background-color: rgba(255, 255, 255, 0.247);
+    -webkit-backdrop-filter: blur(2em);
+    backdrop-filter: blur(2em);
+    border: none;
+}
+
+
+/*profile*/
+.profileImage {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+.profileRow {
+    margin: 120px 0px 20px 0px !important;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .1);
+    -webkit-backdrop-filter: blur(1em);
+    backdrop-filter: blur(2em);
+    padding: 20px;
+}
+
+.pofileCarousel {
+    margin: 120px 0px 120px 0px !important;
+}
+
+@media screen and (max-width: 991px) {
+    .profileImage {
+        margin-bottom: 20px;
+    }
+}
+
+.profileDescUnder {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .1);
+    -webkit-backdrop-filter: blur(1em);
+    backdrop-filter: blur(2em);
+    padding: 20px;
+}
